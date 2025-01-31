@@ -23,9 +23,8 @@ export class ProjectList
     this.configure();
     this.renderContent();
 
-    document.addEventListener("DOMContentLoaded", () => {
-      projectState.loadProjects();
-    });
+    projectState.loadProjects();
+  
   }
 
   @autobind
